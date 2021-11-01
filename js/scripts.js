@@ -29,6 +29,7 @@ const createEmployeeCard = ({ id, picture, name, location, email }) => (
 const displayEmployeeModal = id => {
   const employee = employees.filter(employee => employee.id.value === id)[0];
   const { picture, name, email, cell, location, dob } = employee;
+  const date = new Date(dob.date).toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
   const container = document.querySelector('.modal-container');
 
   if (container) document.body.removeChild(container); // check if modal already exists and remove
@@ -44,7 +45,7 @@ const displayEmployeeModal = id => {
             <hr>
             <p class="card-text">${cell}</p>
             <p class="card-text">${location.street.number} ${location.street.name}, ${location.city}, ${location.state}, ${location.postcode}</p>
-            <p class="card-text">Birthday: ${new Date(dob.date).toLocaleDateString('en-US')}</p>
+            <p class="card-text">Birthday: ${date}</p>
           </div>
         </section>
         <div class="modal-btn-container">
