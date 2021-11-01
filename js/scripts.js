@@ -102,5 +102,5 @@ const addSearch = () => {
   });
 }
 
-getEmployees('https://randomuser.me/api', 'results=12&nat=us,gb', displayEmployees);
+getEmployees('https://randomuser.me/api', 'results=12&nat=us', displayEmployees);
 addSearch();
