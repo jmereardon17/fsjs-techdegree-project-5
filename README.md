@@ -13,4 +13,4 @@ Extra functonality to the highest grading:
 - Modal toggle - Add a way to toggle back and forth between employees when the modal window is open. No errors can be found when reaching either the end or beginning of the list.
 - Structure, style and CSS - I changed a lot of the styles on the page which makes up for a dark theme.
 
-Grade: TBC
+Grade: Exceeds Expectations
