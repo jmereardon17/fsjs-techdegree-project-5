@@ -1,4 +1,4 @@
-# Public API Employee Directory
+# Public API Requests
 
 An app for a fictional company called Awesome Startup, a distrubuted company with remote employees working all over the world. They need a start way for employees to share contact information with each other. This is a treehouse FSJS techdegree project.
 
